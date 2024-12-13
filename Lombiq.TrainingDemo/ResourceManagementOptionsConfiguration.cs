@@ -27,7 +27,7 @@ public class ResourceManagementOptionsConfiguration : IConfigureOptions<Resource
             // There is no strict naming convention, but we can give you an advice how to choose a unique
             // name: it should contain the module's full namespace followed by a meaningful name. Although if it's a
             // third-party library you can give a more general name like you see below. This script will be the
-            // javascript plugin for the color picker.
+            // JavaScript plugin for the color picker.
             .DefineScript("Pickr")
             // This is the actual script file that will be assigned to the resource name. Please note that the naming of
             // the file itself is following similar rules as the resource name, with some modifications applied as it's
